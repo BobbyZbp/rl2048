@@ -1,0 +1,27 @@
+# --- Python cache ---
+__pycache__/
+*.pyc
+
+# --- Virtual Environments ---
+venv/
+.venv/
+
+# --- Test Cache ---
+.pytest_cache/
+
+# --- Checkpoints, model weights, logs ---
+checkpoints/
+*.pt
+*.pth
+*.onnx
+
+# --- VSCode / Editor junk ---
+.vscode/
+*.code-workspace
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- If you use Jupyter later ---
+.ipynb_checkpoints/
